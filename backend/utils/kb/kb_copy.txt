@@ -1,0 +1,1319 @@
+# Saddam Hassan's Agency Knowledge Base
+
+## Agency foundations
+
+### Technologies and tools
+
+Q. I'd appreciate it if you could share your Slack and Trello workflow with me. 
+
+A. Slack - client communication 
+- Paid version 
+- ⁠client added to guest channel
+- ⁠Csm and ppc specialist added
+
+ClickUp - internal communication 
+- every client has a separate card or task
+- ⁠under sub tasks we add marketplaces or if it’s just one marketplace then we add the type of ads like SP, SBV, SD, HSA
+
+Q. Why do you recommend using ClickUp for internal communication instead of Slack?
+
+A. Clickup is a project/account management software so slack will only be limited to internal communication whereas clickup can quickly show you:
+- What is happening with an account or project
+- What stage we are in and where we are stuck
+- What has happened so far (history from activity log)
+- What are the high level goals
+
+
+Q. Which tools are needed to become an expert salesman?
+
+A. Not tools but I would recommend some skills that play a crucial role in becoming a good closer. 
+
+1- Active Listening
+2- Art of asking good probing questions. 
+
+Anything after that is just a conversation. 
+
+Q. Any tool or platform recommendation to organize SOPs and videos?
+
+A. Use Loom for recordings and then Framewise to make a course out of it.
+
+The course is recent. We’ve done it for 3 departments so far.
+
+Now anyone who joins our team goes through the training and has to pass the test. 
+
+And since everyone is commission/bonus based in our team, we don’t care how long it takes them to finish the training
+
+Q. What softwares can we utilize to manage PPC on Amazon?
+
+A. Adbrew
+
+Q. Is there any app to secure Excel sheets and prevent data theft?
+
+A. You can go back to previous versions of different sheets and even move them back from the trash folder.
+
+But also create a backup of the sheets
+
+### Services and offering structure
+
+Q. I have a set offer in mind for managing a single product, but when a client comes with multiple products, I often struggle with pricing. Is there a formula?
+
+A. There is no formula, just look at % of work load that goes up and add that % on your price for single product
+
+Q. When and how is the best way to ask clients for video testimonials?
+
+A. Once a project is done, or if it is account based then on your monthly review, ask them how their experience is/was. If they are happy, say that you can give them 10% off on their next order/month if they give you a video testimonial
+
+Q. If another agency or freelancer refers a client to you, what percentage of revenue should I share with them?
+
+A. Here is my take on this:
+
+Referral = 10%-15%
+That is how much your Marketing should cost anyway 
+
+Whitelabel = 25% discount 
+Because now they also took away sales from you
+
+But if you are a freelancer and have no sales team, then 20% isn’t a lot.
+
+Would you rather have some profit that others refer to or not have that profit at all?
+
+The only reason you should choose the latter is if your entire team is already at capacity
+
+Q. I do architecture and interior design and want to refer clients for websites and branding to a friend. How much commission should I demand?
+
+A. Yeah you can ask hey do you guys have an affiliate program for any clients we pass on?
+
+Let him come back with a number and respect that. 
+
+You can always shop around for the best deal.
+
+Best deal has 3 components:
+- Referral %
+- ⁠Avg Deal size
+- ⁠Satisfaction rate (can be gauged from reviews)
+
+## Specialized Services
+
+Q. It's a 500/mo subscription for Adbrew. How many accounts can connect in this package?
+
+A. Tell them we are an agency and they will give you pricing to connect all accounts at $500 until 2% of ad spend became higher than $500.
+
+So if you have less than $25k of ad spend across all accounts, it will be $500/mo
+
+Q. How to manage and delegate multiple tasks to yourself as a CEO and accomplish them?
+
+Create a "Cloud Dumping" folder and an "Asset" file. After creating a screen recording, name the recording properly and then place it in the Cloud Dumping folder simultaneously. Subsequently, include the link to this tutorial in the Asset file with appropriate naming.
+
+Delegate:
+Assign the responsible person to review the tutorial and create a checklist based on it. Then, have them place the checklist in the dumping folder. Afterwards, include the checklist in the Asset file with proper naming. Start task delegation to the team member who created the checklist and assess the results to ensure they meet the desired outcomes.
+
+This is just the beginning to transition from chaos to organized workflow.
+
+Q. What should be the ICP for Amazon creatives services. "Struggling sellers with poor creatives" or "sellers generating $100k/y or higher revenue"?
+
+A. Should be both. 
+
+Our main clientele is sellers just launching their first product. It's a need based service and so you should consider partnering with an agency that does Product research or sourcing
+
+Q. How do you do the quick look videos for PPC Auditing?
+
+A. We only do loom video for the positive responses.
+
+It’s usually 5 mins where we show them data from H10 or datadive and quickly talk about what we can fix in 30 days to get 20%-30% improvement.
+
+And then say we have a detailed audit to go through on call explaining how we can deliver the results in 30 days
+
+Q. What are your thoughts on partnership (co-founder) as an agency owner? 
+
+A. There are difficult times in your life and business where you lose faith and/or motivation. That’s where having a partner helps. I recommend doing partnerships and more so merging agencies in your space.
+
+However, you need a partner that brings strengths to the table that you lack.
+
+## Marketing and Lead Generation
+
+### Branding
+
+Q. Is it recommended to create a company page on a personal LinkedIn profile, or should we set up a separate profile?
+
+A. Create separate.
+
+The one that you want to grow is the personal. People like following other people.
+
+Company profile is only to show that there are real people behind the company page and you have some social presence
+
+Q. What factors determine the pricing tiers in each deck?
+
+A. The pricing tiers work to counter negotiations.
+
+Example:
+1. PPC only - $1k/mo
+2. ⁠ppc + account management - $1.5k/mo
+3. ⁠full store management - $2k/mo
+
+So if client says i only have a budget of $1k, we tell them tier 1 is probably most suited for them
+Again if there is a lot of confusion around pricing, give me a specific example and i can guide you on how to package it with a preset pricing model.
+
+
+### Content Marketing
+
+Q. Is this the right time to post lead magnets and post about our skill by targeting specific sellers on LinkedIn?
+
+A. Just lead magnet. Don’t post about your skill.
+
+No selling in posts. Add a CTA in your lead magnet. Only filtered people will book a call
+
+Q. Can you share some resources to learn more about Automatic Client Funnel by Alen Sultenic?
+
+A. I highly recommend joining (Never Held Back) NHB + when am there that time it was $500 a month not sure how much it is now 
+
+Here is your roadmap
+
+Learn for free from NHB posts on fb 
+
+join Josh Gavin offer group $15 a month and learn low ticket offers
+
+Consider my community as we have some people from NHB group too explore inner circle nomads.com
+
+Once you cross $3000+ month then join NHB+ or Fast forward their premium extension 
+
+AC funnel is Alen’s flagship so u can best learn from NHB+ 
+Above steps I shared based on your income goals 
+
+Q. What should be a roadmap for me to grow from here with $500 budget? My niche is Amazon.
+
+A. I think for now just focus on one medium. $500 is a good budget to spend fully on Upwork.
+
+You can allocate $250/mo in the first 1 month and ramp up from there.
+
+In case there aren’t enough jobs, we can figure out the rest.
+
+It is easier to focus and get one lead gen working vs trying multiple things and getting average results
+
+### Competitor Analysis
+
+Q. How do we analyze the marketing strategies of our competitors?
+
+A. Just search what they are doing on google, yt, linkedin, ig.
+
+Follow the owners too.
+
+You’ll know in general what they are doing.
+
+Q. My competitors are running ads and I wanted to know how many sale they are generating on SAAS Product. is there any way?
+
+A. That's the wrong approach.
+
+If they are running google ads let's say, just look at the keywords and then go through their sales process, find their pricing.
+
+All you have to know is:
+- They run ads on these keywords
+- Their sales process (e.g. form > calendar > call)
+- Their pricing
+
+And then you reverse engineer that and build it for your agency
+
+### Outreach Strategy
+
+Q. I'm doing LinkedIn outreach with 5 Messages sequences after 3 days. Is this the right approach?
+
+A. If someone says no, you can message:
+
+- Thanks for letting me know. I'll take you off my list for now. We'll touch base in a few months to see if it makes sense for us to connect on a call
+
+They will appreciate that.
+
+You can put a follow up reminder for 2 months.
+
+5 message sequence ideally should be like this:
+
+Message 1 (2 days gap)
+Message 2 (3 days gap)
+Message 3 (5 days gap)
+Message 4 (7 days gap)
+Message 5
+
+Q. I am starting outreaching my Ideal profiles. Is my strategy good?
+
+A: Your strategy seems solid. Engaging with content relevant to your target, such as liking or commenting on their posts, helps establish rapport. 
+
+When sending connection requests, it’s great to mention something specific they’ve shared or spoken about to show genuine interest.
+
+ If there’s no response, following up with a casual message that provides context to your offer — without being too pushy — keeps things light and non-intrusive. 
+
+Offering value, like sharing presentation samples, adds a personal touch and opens the door for further conversation. Keep it authentic, professional, and not too salesy.
+
+Q. I need a way out for approaching influencers and how to keep the bounce rate lower. Do I mail them via professional domain email or just sliding into their DMs would work?
+
+A. Do both. Try to use a secondary domain if the list is bigger than 1000. 
+
+You need to keep it vague and make them feel like it's a great opportunity. 
+
+Hey Influencer,
+
+Some personalization (I loved the video you did about XYZ). We work with quite a few brands on Amazon that are looking to work with influencers/brand promoters. 
+
+Are you open to a partnership or collaboration? I can send you more details
+
+### Email Marketing
+
+Q. What's the fixed cost (salaries + tools) you are paying for the complete email marketing process?
+
+A. We are paying our partner $2000/mo for this. 
+
+It has been 2 months so far. They helped us:
+- Write the email templates
+- Got us setup on Smartleads
+- Warmed up the domains
+- Scraped leads from Clay, Apollo and then further refined the list
+
+The only other cost was for domains, we purchased around 40.
+
+Our goal is to get to 100K emails/month
+
+Q. How many emails you send to get conversation of 3 deals?
+
+A. I summarized it here. 12K emails to get 3 conversions.
+
+Q. What are the general points or mistakes to avoid in email copy that increase the chances of campaign success?
+
+A. - Avoid links in the first email as it impacts deliverability. Instead use screenshot of a case study OR say that you have an audit prepared for them
+- The goal is to get handraisers. Handraisers are basically people who express their interest by saying yes to whatever you offer. That's why audit works best because you get a yes
+- Keep it short. Make it more about the outcome, less about who you are. No one cares about you
+- That is one way to do it. You lead with a pain point and then mention the offer. However, so many people do this so you wanna ask to give them something free of cost that is valuable (e.g. audit that shows how they can grow sales by 20%)
+- Guidelines already mentioned
+- Calendly will be in second email to handraisers
+
+### SEO
+
+Q. For your AMZ website, how often do you track SEO KPIs?
+
+A. Every week we have a marketing call where we track everything. 
+
+You guys should also get into the habit of doing weekly calls. 
+
+We do separate calls with new marketing efforts. Example: Cold emails, we have a separate call with the team running it
+
+Q. What are the right metrics to track for SEO?
+
+A. 
+- Total traffic
+- Specific service page and home page traffic
+- Kw position on your top 10-20 keywords 
+- Domain authority
+- ⁠backlinks
+
+These are the ones that you should focus on.
+
+And for inputs just focus on no of blogs per month and backlinks
+
+## Client Management
+
+### Account Handling
+
+Q. What are your platform recommendations for booking most calls?
+
+A. Seo
+Google ads
+Fb ads
+Partnerships
+Conferences
+Linkedin outreach 
+Cold email
+Newsletters (new)
+
+Preffered ones are:
+Seo
+Partnerships 
+
+But you need to be really good and sometimes unique to do well from those channels
+
+Q. How can I shift from transition to Pitch?
+
+A. You need a deck.
+
+Clients don’t care what type of deck it is.
+
+How you get the info from them and then put that into the deck is more important.
+
+When showing examples, tell a story behind the deck.
+
+Don’t say it looks professional or elegant because that’s calling your work amazing.
+
+Q: Suggestions on stats? In the past 30 days, we’ve sent 68 proposals, 16 viewed, 12 interviews, and 2 hires. Can you derive a formula?
+
+A: Here’s the breakdown:
+
+Proposal-to-View Rate: 23.5% (16/68)
+
+View-to-Interview Rate: 75% (12/16)
+
+Interview-to-Hire Rate: 16.7% (2/12)
+
+Key Formula:
+Proposal-to-View Rate = Proposals Viewed/Proposals Sent
+
+View-to-Interview Rate = Interviews/Proposals Viewed
+
+​Interview-to-Hire Rate = Hires/Interviews
+
+Action Points:
+Focus on View-to-Interview for better engagement.
+
+Improve Interview-to-Hire for better closing.
+
+Your Cost per Acquisition is $150, well under your $1,440 ceiling, so you're in a good spot.
+
+Scale fast, don’t over-optimize, and give new processes time to work (3 months minimum).
+
+Q. I am talking to a prospect with low sales who wants full account management but won't pay more than $1500/mo. How should I approach this?
+
+A. Sometimes closing deals at a lower price can be worth it if you see long-term potential. For example, I recently closed a $1k deal + 5% revenue share, locking them into a 1-year contract with clear deliverables (1 listing per month for creatives). It's important to set expectations—don’t let them expect multiple listings for the same price.
+
+Another example: A client wanted a $30k app but only had $10k. We countered with $12k for an MVP, and as they generate revenue, we’ll handle future phases. This way, we didn’t lose the deal or overcommit resources.
+
+Key takeaway: Negotiate deliverables, not just price. Understand their budget, offer something within that range, and show them what they could get at a higher price. Think of it like showing your Ferrari collection—but offering an S-Class Mercedes too. It’s their choice.
+
+Q. Clients say we don’t know you as it’s also risky for us to do all upfront payment. How to deal with this issue?
+
+A. Give them a payment plan but collect something upfront. Use my strategy
+
+Like $2.5K if you pay upfront or $3K if you want to do it in 2 payments
+
+If you guys go through my content and really practice the framework for sales, you will build enough value where even if they don't know your company, they will trust you after the call. 
+
+I jump on calls where they are like who is AMZ One Step? But after talking to me for 10 mins, they know I am an expert and their money is nothing special for me.
+
+Q. What's the ideal approach for audit of a brand you want to propose a service to?
+
+A. If you are trying to pitch amazon ads, then 1 listing’s audit will be the initial loom you sent.
+
+If they like what you presented then you can offer a comprehensive audit which you can get by them sending you the reports
+
+Q. In one of the videos, Saddam mentioned using software for client reporting. What kind of software is he referring to?
+
+A. He is still doing manual reporting.
+
+If that was for Amazon PPC, he was referring to Adbrew. We manage the ads and reporting through that software
+
+
+## Hiring & Team Management
+
+### Compensation and Structure
+
+Q. Is there any rule of thumb to check if we are hiring more staff than needed in an agency?
+
+A. 33% team, 33% marketing & sales and 33% profit. This is the ideal for agencies.
+
+Q. How much stripe charges and what are their deductions criteria?
+
+A. They charge around 3%
+
+It’s based on the card the client is using.
+
+For example Amex is higher than others
+
+Q. At your agency, do you guys hire freshers with little or no experience?
+
+A. We used to. Now that we are fully commission based I only hire experienced talent.
+
+They don’t need much training and can usually bring initiatives from other companies and improve our internal processes
+
+Q. Fully commission based? Is it a viable offer for employees?
+
+A. 
+Yeah we face this in our design team a lot.
+
+But we are providing a job to them and we explain what our avg employee makes in their department.
+
+They will at least try it out. There should be potential for them to earn a lot. Well, most of the agencies would prefer a commission based model. It's an ideal one, but we have 10% people with such a mindset. If one truly understands, this could be beneficial for both.
+
+For example our avg ad account billing is $500-$750/mo
+
+We give our specialists 
+- 15% of billing in first 4 months
+- ⁠30% of billing after that
+
+Before they could manage 7-8. But now that we have a team of killers, they can manage 15.
+
+15% x 15 x $500 = $1125 (minimum)
+30% x 15 x $750 = $3375 (max)
+
+Who wouldn’t want this role in Pakistan
+
+It’s all about finalizing the 3 best candidates and then educating them on this offer.
+
+Maybe 2 will say no, but 1 will definitely say yes
+
+Q. Which PPC Automation software are you using for managing these numbers of accounts or are all being done manually?
+
+Ad brew, which is better than Scale insights
+
+I created all the automations myself. 
+
+Now i sell that to low budget clients at $1000
+
+Full automation system to manage your own ppc in 4 hrs/wk
+
+We also include 4 months of software in it. This way they are dependent on us
+
+Q. How do you set up KPI bonuses in your agencies?
+
+A. KPI’s are performance indicators - they should be correlated to performance i.e revenue or profit increase. 
+
+% of revenue can be shared on work load managed.
+
+### Hiring Process
+
+Q. I've been hiring on and off, always 1:1 interview. How do I conduct effective group interviews?
+
+A. In Pak, show up rate is bad so:
+
+- always schedule an extra candidate for interview because 1-2 won’t show (book 5 and 4 will show)
+- ⁠Give them a call and text on the day and ask for confirmation 
+- ⁠send them a calendar invite through calendly or something that has 2 reminders
+
+Q. I am hiring an email marketing and LinkedIn expert for lead generation. What model would be win-win?
+
+A. So their main goal is to generate meetings.
+
+I would advertise the job as a 1 lakh+ salary.
+
+Structure:
+Base: 30k (as Husein mentioned)
+Per meeting booked: 10k
+
+Tell them the goal is to book 10-15 meetings in a month.
+
+With 10 meetings they can earn 130k
+
+Out of 10 meetings, you should close 2-3 clients.
+
+So depends on your service if 2-3 clients will generate enough revenue so that 130k is around 10% of billing
+
+
+### Group Interviews
+
+- Conduct group interviews with 4-5 candidates simultaneously to save time and gain diverse perspectives.
+
+- Ask thought-provoking questions like:
+"If you had to leave yourself and hire someone else from this group, who would you select and why?"
+
+- Benefits:
+
+ 	-Allows you to assess candidates' decision-making and interpersonal skills.
+
+	-Speeds up the hiring process by interviewing multiple people at once.
+
+Q. Ideally how long should a group interview be?
+
+A. I book 45 min slots. With 4 candidates that’s the ideal time.
+
+And try to rotate. If you asked 1 person a question first, make them go last for the next question.
+
+Q. Is my group interview approach based on technical questions or soft skills good?
+
+A. It depends on the type of role you are hiring for. The more managerial it is, the more I try to ask them about the problems that I am facing in my company.
+
+I wanna hear how they will fix it for me.
+
+If it’s entry level then I want to give them an assignment first and then ask them questions around that.
+
+
+
+
+### Managing High-Performers
+
+- Treat your team like a garden—nurture the high-performers (your flowers) instead of focusing on weeds (underperformers).
+
+- Give attention to those who are self-driven and deliver results.
+
+- Celebrate achievements publicly to motivate others.
+
+- Avoid micromanaging winners—they thrive on autonomy and opportunities for impact.
+
+- Let underperformers either improve through observation or move on naturally
+
+### Handling Employee Departures
+
+- "You don’t own someone’s time; you only borrow it while they work for you."
+
+- Good employees often leave for better opportunities, not because of dissatisfaction.
+
+- Prepare for transitions by:
+
+- Asking departing employees to create video SOPs (Standard Operating Procedures).
+
+- Maintaining positive relationships to keep doors open for future collaboration.
+
+### Building Self-Managed Teams
+
+1. Strong Systems & Policies
+
+	- If your systems and policies are strong, you won't need intense management.
+
+	- Example: "Our Karachi team has nearly 100 people. We don't have a general manager, and yet the team runs smoothly."
+
+	- Everyone is empowered to act as a leader and manage their responsibilities.
+
+2. Focus on Systems, Not Just People
+
+	- When someone underperforms, examine the system first—it may be the system failing, not the individual.
+
+	- A good system naturally drives employees to perform better.
+
+	- Often when someone underperforms, people blame the employee. But many times, it's the system that's failing.
+
+3. Create Clear SOPs
+
+	- Step 1: Write it down in simple language even a child could understand
+
+	- Step 2: Record video demonstrations using tools like Loom
+
+	- Step 3: Conduct live training sessions before assigning tasks
+
+	- When SOPs are followed correctly, the success rate of task completion drastically improves.
+
+4. Establish Clear Policies
+
+	- Create an online manual as part of onboarding
+
+	- Conduct regular reinforcement sessions
+
+	- Maintain consistency—avoid making exceptions
+
+	- Use templates customized to your company culture
+
+	- If you're constantly needing to make exceptions, either the policy is too strict or too weak—adjust accordingly.
+
+5. Culture of Celebrations
+
+	- Celebrate wins, even small ones
+
+	- Publicly appreciate top performers
+
+	- Avoid focusing solely on mistakes
+
+	- Create healthy competition through recognition
+
+	- In places like Pakistan, it's common to ignore good performance but highlight mistakes instantly—this creates a toxic environment.
+
+6. Trust Your Team
+
+	- Constantly asking for proof, hovering over your team, or double-checking everything kills initiative.
+
+	- Trust builds accountability and performance.
+
+	- Stop micromanaging—it kills initiative.
+
+### Customer Success Managers
+
+- CSMs act as the bridge between your agency and clients, ensuring smooth communication.
+
+- Designers, ad managers, and copywriters may lack client-facing skills, making CSMs invaluable.
+
+- Hiring CSMs is lower-risk since they typically don’t require specialized technical skills or large teams.
+
+### Hiring Technical Talent
+
+- Try to hire the best, especially experts in your field.
+
+- Having employees with hands-on experience is a unique selling point.
+
+- For agencies, hire people with both technical skills and client-facing abilities when possible.
+
+- Partner with small freelancers for specialized tasks.
+
+
+## Agency Foundations and Scaling Strategies
+
+### Finding Your Focus
+
+- "At some point in your business, you have to do less."
+
+- Initially offering multiple services can help reach ~$50K/month, but to scale beyond $100K/month, specialize in one high-value offer.
+
+- Think of successful restaurants with selective menus—they focus on their strengths to stand out.
+
+- Don't try to be a jack-of-all-trades—this approach leads to poor delivery and trust issues.
+
+- "The less you do, the less you sell, the more quickly you can scale."
+
+- Actionable Tip: Focus on fewer but higher-potential projects ($50K-$100K) rather than juggling many smaller ones.
+
+### Freelancing vs. Agency Building
+
+- Freelancing is "glorified self-employment"—not a real business
+
+- Many confuse freelancing with entrepreneurship
+
+- To run an agency, you need more than skill: client acquisition, team building, operations, etc.
+
+- Advice: Don't start an agency unless you're making $10K+/month as a freelancer
+
+- The shift requires an entirely different mindset—from technician to business owner
+
+### Specialization & Positioning
+
+- When you're seen as a generalist offering 15-20 services, people don't know what you're truly good at.
+
+- Just like McDonald's is known for the Big Mac, become known for one specific skill.
+
+- Consistently create content around your niche—become the go-to expert.
+
+- Brand positioning happens through consistency—when you keep posting specialized content, people automatically think of you when they need that service.
+
+- Finding your unique edge: Think about past clients you couldn't serve—why? Identify unique problems others can't solve and become the one who can.
+
+- When you handle rare, complex client issues, even other agencies will refer clients to you, increasing revenue without marketing costs.
+
+### Revenue Distribution
+
+- To scale profitably, allocate your revenue strategically:
+
+1. Cost of Service: 30% (team salaries, tools, software)
+
+2. Marketing: 10-15% (ads, social media platforms)
+
+3. Sales: 10-15% (closers, CRM tools, appointment setters)
+
+4. Overhead: 10% (rent, HR, accounting)
+
+5. Net Profit: 30-40%
+
+
+Pro Tip: Start by hiring freelancers or project-based contractors before committing to full-time hires.
+
+### Business Growth Fundamentals
+
+- Success requires staying in the game with focus (no shortcuts)
+
+- Study companies 2-3x bigger than yours and reverse engineer their strategies
+
+- The biggest challenge is uncertainty - stay committed
+
+- Focus on one offer, one audience, one problem: "The less you do, the less you sell, the more quickly you can scale"
+
+### Marketing Investment
+
+- "Marketing is an investment that transforms your business into a brand."
+
+- Example: Companies spend millions annually on conferences and Google Ads not just for immediate ROI but to dominate market share.
+
+- To become a recognized brand:
+
+	- Prioritize consistent marketing efforts over short-term profit margins
+
+	- Outpace competitors with bold investments in visibility
+
+- Owners often take profits too early, splurging instead of reinvesting in marketing, which is essential for growth
+
+- Many agencies experience initial growth but quickly plateau without continued marketing investment
+
+### Common Scaling Mistakes
+
+- Taking Profits Too Early: New owners often extract profits too soon instead of reinvesting in marketing for growth.
+
+- Trying to Do Everything: Many try to handle all tasks themselves, believing they know everything.
+
+- Growth Stagnation: Agencies can experience initial growth but quickly plateau without continued marketing investment.
+
+- Limiting Beliefs: Many stop trying new strategies based on past experiences, limiting their potential growth.
+
+- Overextension: Avoid spreading yourself too thin by trying to manage multiple domains simultaneously (e.g., SEO, PPC, etc.). Focus on one area at a time for mastery.
+
+## Sales Techniques
+
+### Cold Calling
+- Best Practices for Cold Calling:
+
+1. Introduce yourself as a cold caller upfront to build trust (e.g., "Hi, I’m [Name] from [Company]. This is a cold call—do you have 30 seconds?").
+
+2. Respect the prospect’s time by keeping your pitch concise and value-driven.
+
+3. Handle rejection gracefully without being pushy (e.g., "I understand this may not be the right time—thank you for listening.").
+
+3. Offer free value upfront (e.g., "We’d love to create one free video for you to showcase our expertise.").
+
+### Cold Emails
+
+Key Steps for Effective Cold Email Campaigns:
+
+1. Use lead generation tools like Clay to find prospects efficiently.
+
+2. Send emails via platforms like SmartLead while using multiple domains (limit: ~30 emails/day per domain) to avoid spam filters.
+
+3. Create 3–4 email templates with these elements:
+
+	- Personalization (mention their business name or recent achievements).
+
+	- Social proof (highlight past successes or testimonials).
+
+	- A soft call-to-action (e.g., “Would you be open to a quick chat?”).
+
+4. Follow up with Loom videos or personalized messages to increase response rates.
+
+- Proven Results: This approach generated $9.5K in revenue within two months from five clients.
+
+### Lead Generation
+Q.Which company/way is recommended for buying an email list?
+
+1. You can use Apollo, Sales Nav, etc
+2. ⁠Google Amazon FBA leads or whatever industry and buy from websites
+3. ⁠Google/check fb groups for agencies that do DFY lead gen
+4. ⁠Hire a VA to create lists for you
+
+Probably 1 and 2 are the easiest ones. 3 can be expensive. 4 needs time to build yourself
+
+Q. If we use Google Amazon FBA, do they sell the same lead list to other agencies as well and how to make sure that they are not providing dead lists?
+
+A. Yes they do sell to others.
+
+Most of these companies give you a sample list.
+
+You can check email validation tools to make sure they are not bouncing. However, you won’t know if they are dead leads until you start reaching out. Even one lead converted can pay off the investment. 
+
+Q. Is anyone working on lead generation other than Upwork?
+
+A. Just rehired a cold caller to bump up our leads. We did it years ago and stopped when we got busy. Things have changed so I will share some results with you guys in a month.
+
+For now, if you are doing more than $10k/mo, I think you guys should at least try Google Ads.
+
+If we can get 5 agency owners to spend $1000/mo for 2 months, we can collectively crack the code on Google ads. Right now, we get about 100 leads/mo spending $8k/mo on Google ads.
+
+Q. What's the conversion rate for Google Ad leads?
+
+A. 1 out of 3. But you guys should consider 1 out of 5 because it takes time to optimize your sales funnel
+
+Q. I spent around 8K$ on google ADS Q4 last year and didn't get a single lead.
+A. Not a single lead? Must have been a funnel issue.
+
+Once we get 5 or more agencies to participate, here is what we will do:
+
+- We'll review everyone's landing page
+- Give you pointers on how to select keywords to target
+- Ensure CTA is properly optimized > VSL, Collecting info, calendar booking
+- Guide you to create CRM setup
+- Ensure your initial workflow is setup in CRM > Goal is to book a call for those who haven't 
+- Ensure call show up workflow is setup in Calendly > Goal is for prospect to show up
+
+Q. I have a $500 per month budget for the acquisition. Other than Upwork, where should I spend this for best conversions?
+
+A. I have 1 basic level person who can handle basic stuff of the process. What should be a roadmap for me to grow from here? My niche is Amazon.
+
+I think for now just focus on one medium. $500 is a good budget to spend fully on Upwork.
+
+You can allocate $250/mo in the first 1 month and ramp up from there.
+
+In case there aren’t enough jobs, we can figure out the rest.
+
+It is easier to focus and get one lead gen working vs trying multiple things and getting average results
+
+Q. Give me a template of emails you are sending for lead generations along with the level of personalization?
+
+A. Hey there NAME,
+You likely have heaps of tasks to get through.
+
+Ensuring that your Amazon listings are fully optimized shouldn’t take up any more of your time than it needs to.
+
+That’s why companies like Oral-B, Philips and others entrust AMZ One Step with optimizing their listings, creating product photographs, managing their PPC and more.
+
+If you’d like, we can create 2 complimentary main images for your next listing and handle the split testing (+ take care of the split testing fees) to give you a glimpse of how our services can boost your listing’s search rankings and purchases.
+
+Seems worth exploring further?
+
+Hey NAME,
+Any interest in trying out AMZ One Step for $0?
+
+To recap, AMZ One Step optimizes your Amazon revenue by giving you a standout listing for Amazon.
+
+This includes product photography, PPC management, copywriting, videography and more.
+
+And we deliver in 3 days.
+
+Let me know if this sounds potentially useful for COMPANY.. Alternatively, is there somebody else from your team who you’d rather I reach out to? 
+
+Thank you for your time,
+Saddam Hasan
+Founder - AMZ One Step
+Toronto, Canada
+
+PS: Just answer with "no thanks" if this isn't for you, and I won't reach out again.
+
+These are just 2 of the 12 variations we are using so far. 
+
+But we are now changing the emails to make them even bolder. 
+
+A bolder offer with a bolder promise
+
+A few job titles to target:
+Founder or Co-Founder
+CEO
+CMO
+E-commerce Director
+VP of E-commerce
+Head of Marketing
+Growth Strategist
+Director of Growth
+Digital Marketing Manager
+
+Ask Chatgpt and it will give you like 15-20 titles
+
+### Client Pitching
+
+Q. Two meetings done with client, closing offer is just left - what should be our pricing plan?
+A. I would ask what your structure is for pricing?
+
+We typically give them two options. For this type of brand where $250k/mo is the revenue:
+
+1. $3k/mo retainer
+2. ⁠$1.5k/mo plus 5% of growth
+
+They can decide what suits them best.
+Also typically the second meeting should be where you share the audit and then the pricing.
+
+It’s better to discuss pricing on the call vs via emails. 
+
+
+Q. We are talking to one of the brands and tomorrow we have a 2nd meeting with them. 
+Adspend - $10k-$12k
+Sales - $60k -80k
+
+What pricing should I propose?
+
+A. For this, $2.5K retainer or $1k plus 5% growth
+Your retainer should typically be 20%-25% of ad spend all the way up to $3k.
+
+It can go up to $5k if you also do DSP or manage 3 or more marketplaces
+
+Q. I have been offered a partnership in a SaaS product which is an ERP product by one of my clients from the UK. 
+
+A. Opportunities come in small windows, you need to act on them removing any bias of what you believe your identity is.
+
+What you currently do is just a means to fulfill your deeper purpose. So if this opportunity will help you fulfill your deeper purpose, I would say consider it.
+
+That being said, financially it should make sense. 
+What are they offering?
+
+Q. I’m stuck in a situation where a client is not making a decision just because his partner has not approved it. How to tackle this?
+
+Agreed. Book another call with them and see if other partners can join.
+
+Tell them I want to make sure you guys get a full picture of the work and costs involved.
+
+See what unknown costs they are talking about and make sure the price you give them is inclusive of everything.
+
+
+Ask what price point were they expecting. Tell them you will put a final proposal with the cost together for them.
+
+Come back to this group and discuss what
+1. Client budget is
+2. ⁠how much you would like to charge including unknown costs
+
+
+### Pricing Strategies
+Q. It is established in the US, but newly launched in the UK. What should be our offer for the UK marketplace?
+
+A. Go with 1 offer. Ultimately any sales in the UK will be considered growth and you can charge 5%.
+
+Q. If it's the only retainer? Should have a separate retainer for the UK. 
+
+When you say growth what does that actually mean? Can you explain with an example?
+
+A. Again ultimately it depends how much the client is willing to pay and what you guys charge. If your cost of service is within 1/3rd of revenue at $3k, then I won’t recommend pitching extra.
+
+We always focus on building a relationship first and then increasing rates.
+
+Q. One of my clients is looking for a custom HR and payroll application for his company as we are working on a SaaS based model. What budget should I quote?
+
+A. Cost of development + Profit 30% of that = Roughly around 15-25K. 
+
+But you can check different market places for how much other SaaS products with the same features are being sold for.
+
+Q. The client doesn't want SaaS, they want to implement the software in their own company. How should I price it?
+
+A. Charge them what you would have charged for a 2 yr subscription. So if it's say $20/mo subscription, I would tell the client either pay $500 one time or $20/mo.
+
+Q. An Upwork client wants us to do A+ content for his 4 Parent listings. How should I price this?
+A. Hey Client name,
+
+Here is a breakdown of the scope and our proposed price.
+
+Project Overview:
+- Designing 4 parent listing images.
+- Each parent listing has a total of 35 child variations.
+  - Listing 1: 5 variations
+  - Listing 2: 3 variations
+  - Listing 3: 4 variations
+  - Listing 4: 23 variations
+- Our strategy involves creating 4 parent EBC designs and customizing them to suit the individual child variations. We will allocate 30% of the design to accommodate the unique features of each child variation, ensuring a cohesive yet tailored approach.
+
+Project Proposal:
+- Total Bid: $900
+- Timeline: 4-5 weeks for completion
+
+Billing Method:
+- We propose to use Upwork's hourly payment system to ensure transparency and accountability throughout the project. However, we are committed to not exceeding the agreed-upon budget of $900.
+
+I know you have a decision to make between us and other solution providers. 
+
+However, what we create will look good and convert on Amazon. Ultimately you save a lot more in inefficient advertising if you have a healthy conversion rate on these listings.
+
+Also, brands like you benefit from partnering with an agency that are experts on both creatives and advertising. That’s where we come in because once we create these A+ contents, we know exactly what strategies can help you with ads.
+
+It’s only $900 for such a detailed scope, let me know if we are good to proceed. Looking forward to working with you.
+
+### Client Communication
+Q. If someone has no credit card system in place and they charge via invoicing, requiring clients to pay manually, how should they take payment over the phone?
+
+A. There are only two ways to do it.
+
+1. Have credit card payment method available 
+2. ⁠Make payment the step prior to onboarding. So service only starts once confirmation of payment is received 
+
+It’s ok if you can’t collect payment on call. The idea is for them to make a decision on the call. 
+If they want to think about it, always try to book another call towards the end of the first call.
+
+Q. The majority of clients wanna stay on email communication instead of coming anywhere else other than WhatsApp. How should we handle this?
+
+A. For our project based clients, we keep them on emails. However, for our account based clients, we tell them slack is where we communicate but 15% clients still want to remain on emails. 
+
+We tell them the benefits of being on slack when doing onboarding
+
+Q. If the client doesn't use or agree to use Slack, ike most of our Pakistani clients, will you communicate on WhatsApp as well?
+
+A. Not recommended.
+
+Either they do emails or we move to Slack.
+
+WhatsApp is personal and business one is also not a solution because all users have one no and it gets chaotic
+
+Pakistani clients are the toughest to deal with so if they are very hellbent on using whatsapp, i guess you can use it but try to discourage
+
+Slack has:
+- Integrations available especially with Zapier
+- ⁠All communication has docs/resources centralized in one place (you can use WhatsApp description but I’ve noticed people don’t use it much)
+- ⁠Better visibility for your team which means they can communicate with clients better
+
+Whatsapp is just disorganized. 
+
+Q. For smaller brands with lower retention rate, what should we do if they don't show up to the audit report meeting?
+
+A. This won’t work unless they give you commitment on call. It will only annoy them.
+
+Q. A past client introduced me to an agency outside my niche who's been referring leads my way. Should I proactively offer an affiliate bonus?
+
+A. Yeah bring it up saying "By the way, we have a referral program where we share x% of billing with our partners. Would you like to be set up for that since we’re getting these leads?"
+
+Q. How do you guys manage client communication?
+
+A. 1- Tell them what's in it for them. How it will be beneficial for them. 
+2- Tell them x is helping with your project and I think it would be better if he is also part of the communication. 
+3- You need to clarify this to the client that for payment related questions they only need to talk to you. And tell your team they can’t chat outside of slack or in Private messages.
+
+### Objection Handling
+
+Q. I usually get this situation on calls: "I'm already scheduled to meet a few other people. I'll let you know once I'm done with interviews." How do we tackle them?
+
+A. Prospect: Let me think about it/talk to others
+
+You: Absolutely, now before we hop off the call, what is it you wanted to go over/wanted to see from others before making a decision? That way i can send you some material that might be useful 
+
+1. Prospect: Well it is the XYZ (This is the real objection >> Refer to Objection handling on how to tackle that)
+
+2. Prospect: Nothing really, just wanted to discuss with team/ talk to others/ do research
+
+You: Sounds good. and when do you think you’ll have made a decision?
+
+Prospect: Oh give me X days
+
+You: Wonderful. Why don’t we book a quick follow up call for Wednesday (after X days pass). That way if you have any questions, we can discuss right away and i can get you through your onboarding 
+
+This is called BAMFAM >> Book a meeting, from a meeting
+
+Q. After presenting my offer and details at the end of a meeting, how long should I wait before sending a follow-up message?
+
+A. You should send an email after the meeting email as soon as possible. It leaves a great impression and is a good way to recap the call
+
+Q. If a client feels my pricing is high after I've already presented my offer, what percentage reduction is reasonable?
+
+A.  I wouldn’t reduce my price just because the client says it’s high. 
+
+That’s a tactic, not a reason. If budget is truly an issue, I might adjust scope to match — not give the same work for less. 
+
+At most, a 10–15% reduction with scope change — never a straight discount. If they won’t pay for value, they’re not the right client.
+
+
+### LinkedIn Lead Generation
+
+Q. I wanted to reach out to 100 Leads on Linkedin. What’s the best and secure method?
+
+Focus on your backend offer.
+
+Your ticket size is small and one time. You have served so many clients.
+
+Try to find something to pitch to them first before going to Linkedin
+
+
+- Develop a systematic approach for scaling businesses using LinkedIn.
+
+- Be patient, as results typically take 1-2 months to materialize.
+
+- Focus on delivering value-driven content to establish expertise.
+
+- Use LinkedIn for networking with high-potential clients and partners.
+
+### Understanding Why Clients Buy
+
+- People don't buy services or products—they buy a desired state of being.
+
+- A service is valuable only if it bridges the gap between a client's current state and desired state (mental, emotional, or physical).
+
+- Four key elements determine perceived value:
+
+	1. Clarity of the client's desired state - It's your job to help define it if they can't
+
+	2. Belief that your service can deliver that state - Build trust and show clear outcomes
+
+	3. Timeline for results - Faster, clear outcomes are valued more
+
+	4. Client effort/involvement - The less they have to do, the higher the service's value
+
+- Design services that minimize client effort, maximize outcome clarity, and position as a bridge to transformation, not just a transaction.
+
+### Client Retention
+
+- Always take payment upfront (deposit or partial payment)
+
+- "Business breaks only when cashflow situation is disturbed"
+
+- Work on pre-billing systems to retain clients
+
+- Deliver quality work on time; be upfront if you can't meet deadlines
+
+### Securing Contracts
+
+- For recurring services: "We have a set-up fee of $2,500. But if we sign a 6-month contract, the set-up fee is waived"
+
+- For project-based services: "We can do a test project now, but our rates are going up. Why don't we talk about the next project to lock in the rate for you"
+
+### Charging Higher Rates
+
+- Value-Based Pricing Tips:
+
+1. Understand the client’s goals deeply before quoting prices—this positions you as a partner rather than just a service provider.
+
+2. Always discuss pricing during calls rather than emails or texts—it builds trust and allows for negotiation.
+
+3. Delay sharing your price until the client asks—it keeps them engaged and curious about your value proposition.
+
+4. Break through limiting beliefs about what you can charge—many entrepreneurs undervalue their services based on personal biases.
+
+### What High-Value Clients Expect
+
+- High-value clients focus more on results than processes.
+
+- Big companies, like Victoria's Secret, prioritize proven results and unique strategies.
+
+- Build credibility through social proof (reviews, awards, testimonials).
+
+- Shift from explaining services to providing clear, solution-oriented results.
+
+- Offer attractive deals that demonstrate understanding of their specific needs.
+
+## Business Mindset & Strategy
+
+### International Expansion
+
+Q. guide me on the process and resources for registering a company in the USA?
+
+A. Just need to register the business.
+
+Taxation and all of that don’t apply to you guys as that entity will only be used for receiving funds and building history.
+
+You will show expenses as much as revenue to show zero profit
+
+
+
+### Partnerships Over DIY
+
+- Form strategic partnerships rather than trying to master all trades.
+
+- Example: A dentist referring clients to specialists creates mutual benefits.
+
+- When clients want services you don't specialize in:
+
+	- Don't fake expertise
+
+	- Partner with specialists
+
+	- You close the client, pass the work, and earn a revenue share (20-25%)
+
+	- It's more profitable and efficient than doing everything yourself
+
+- Partnerships allow businesses to focus on their expertise while expanding service offerings through trusted collaborations.
+
+### Exposure & Community
+
+- Many people have limiting beliefs based on assumptions rather than exposure.
+
+- Simply having knowledge doesn't give an edge—exposure to global practices does.
+
+- Join masterminds and communities to gain insights not available in public forums.
+
+- Example: Learning how Facebook groups can generate millions in agency revenue is often shared in masterminds rather than public forums.
+
+- Small agencies need exposure to possibilities; larger agencies ($500K+) need mindset shifts to scale further.
+
+- "Masterminds unlock insights that are otherwise inaccessible."
+
+### Financial Literacy
+
+- Understanding financial management is essential for scaling a business.
+
+- Accounting is the "biology of business," helping you understand operational structure and profitability metrics.
+
+- Learn to manage cash flow, profitability metrics, and investment strategies effectively.
+
+- Use financial insights to make informed decisions about scaling operations.
+
+### Content Creation
+
+- "We live in a world where you cannot escape content creation."
+
+- Create content that resonates with your target audience to build authority.
+
+- Even the world's biggest brands build communities through content.
+
+- Content isn't just about promoting products but creating connections with the right audience.
+
+- The world's biggest brands, like Nike, have successfully built communities through content.
+
+### Communication & Soft Skills
+
+- "It's all about communication"
+
+- Background in design or marketing not required if sales skills are strong
+
+- Focus on communicating expertise and earning respect
+
+- Developing soft skills like communication and client interaction complement technical talent.
+
+### Time Management
+
+- Accept that personal relationships may be impacted as your business grows—success demands prioritization of time.
+
+- Focus on resolving bottlenecks by asking: “What is the shortest lever I can pull to get the highest gain in business?”
+
+- Stay disciplined—successful people value their time above all else.
+
+Q. How can I build System & SOPs for my working for effective time management and productivity?
+
+A. While executing tasks, create screen recordings with commentary to document the process.
+
+Q. What's your approach to manage your time and tasks as a CEO?
+
+A. At my stage, I try to plan initiatives.
+
+So if i am doing 1 initiative in a month, i will do weekly calls on that and some homework on the side. That is it. 
+
+In a month, my goal is to completely offload that on the team and move to the next.
+
+Also I do daily calls:
+- Amz and kenji sales team
+- ⁠rc sales team
+- ⁠CSM team
+
+Weekly calls:
+- Upper mgmt (Scorecard)
+- ⁠Ads team 
+- ⁠Content team
+- ⁠Ops team
+- ⁠Amazon team
+- ⁠Rc group coaching
+
+And then a few monthly calls
+The scorecard call is one that helps me keep up to date on the business. Might cover this topic in our Virtual event coming on 20th
+
+### Diversification
+
+Q. I am very confused about expanding myself into multiple niches. Should I create content about DTC on my Amazon-focused profile?
+
+A. First it was amz related content I did. So my goal was not to create the best content on Amazon but to become one of the most knowledgeable people on Amazon. That gives you credibility.
+
+In the last 2 yrs my passion has become agency growth so automatically my content is now focused on that subject.
+
+Your audience needs to know what you specialize in. Now that I am not producing amazon related content, I have my team at amz doing that for social media.
+
+So for you pick a passion you will obsess over for at least next 4-5 yrs and stick to it. Become the most knowledgeable person you can become. Soak in all the content on internet and start applying and sharing results on social media
+
+
+### For New Entrepreneurs
+
+- Start by observing—join groups or communities in your niche to understand industry dynamics.
+
+- Identify your natural strengths and invest time in mastering them.
+
+- Offer free work initially to build experience and credibility.
+
+- Develop a unique value proposition that answers: "What do you do, and why you?"
+
+- Know yourself – Figure out what you truly enjoy and are good at.
+
+- Don't rush – Take your time to grow and learn.
+
+- Visualize goals – Picture where you want to be, then plan for it.
+
+- Be ready to pivot – Changing direction is okay. Adapt as you grow.
+
+## Digital & AI Transformation
+
+### Embracing AI Tools
+
+- AI tools like Midjourney are transformative for the creative industry.
+
+- AI is already close to replacing traditional skill sets and will become mainstream within 1-2 years.
+
+- The real value lies not in the outcome—clients only care about results, not how they're achieved.
+
+- Agencies or freelancers who focus on value propositions (i.e., "I'll sell your product, don't ask how") will outperform those who just sell skills.
+
+- Ignoring AI is a mistake—those who adopt and adapt will stay ahead.
+
+### Future-Proofing Your Agency
+
+- Monitor new trends and develop skill sets accordingly.
+
+- Focus on skills that cannot be easily automated—strategic thinking and creative problem-solving.
+
+- Position yourself at the intersection of technology and human creativity.
+
+- Develop soft skills like communication and client interaction to complement technical expertise.
+
+- Right now, services in demand are those that help businesses grow: digital marketing, automation, and customer experience enhancement.
+
+- From a business perspective, companies are increasingly willing to spend on services that contribute to their growth, rather than just outsourcing tasks.
+
+
+## General Advice
+
+### Personal Development
+
+Q. I'm in a situation more like imposter syndrome. How do I got out of that situation?
+
+A. Stay focused on your product or service.
+
+Are you better than your competitors that are doing similar revenue? If yes, why?
+
+That’s your differentiation. If you don’t have one, think about how you can make your offer and delivery unique.
+
+So you shift the focus away from yourself (the entrepreneur) to what solutions you offer
+
+
+
+### Education vs. Skills
+
+- University degrees are overrated considering time investment
+
+- Focus on developing high-demand digital skills
+
+- You can scale agencies to $1M+ without formal education
