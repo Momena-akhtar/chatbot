@@ -66,10 +66,7 @@ async function initializeVectorDatabase() {
   }
 }
 
-(async () => {
-  console.log(await initializeVectorDatabase());
-  console.log(await generateEmbeddings( "what are some common scaling mistakes to avoid"));
-})();
+
 module.exports = {
   generateEmbeddings,
   initializeVectorDatabase

@@ -124,20 +124,15 @@ async function initLangChain() {
 
     const indexPath = path.join(VECTOR_DB_PATH, "new.index");
 
-    try {
       if (fs.existsSync(indexPath)) {
         vectorStore = await FaissStore.load(VECTOR_DB_PATH, embeddings);
         console.log("FAISS index loaded from disk.");
       } else {
-        throw new Error("FAISS index not found");
+        // Create vector store from documents
+        vectorStore = await FaissStore.fromDocuments(documents, embeddings);
+        await vectorStore.save(VECTOR_DB_PATH);
+        console.log("FAISS index created and saved to disk.");
       }
-    } catch (e) {
-      console.warn("Could not load FAISS index, rebuilding...");
-      vectorStore = await FaissStore.fromDocuments(documents, embeddings);
-      await vectorStore.save(VECTOR_DB_PATH);
-      console.log("FAISS index created and saved to disk.");
-    }
-    
 
     // Initialize LLM
     const llm = new ChatOpenAI({
@@ -149,7 +144,7 @@ async function initLangChain() {
 
     // Initialize memory
     const memory = new ConversationSummaryBufferMemory({
-      llm: new ChatOpenAI({
+      llm: new OpenAI({
         openAIApiKey: process.env.OPENAI_API_KEY,
         modelName: "gpt-3.5-turbo",
         temperature: 0,
@@ -157,7 +152,6 @@ async function initLangChain() {
       memoryKey: "chat_history",
       returnMessages: true,
       maxTokenLimit: 2000,
-      outputKey: "text",
     });
 
     // Create conversational chain
@@ -172,7 +166,7 @@ async function initLangChain() {
         returnSourceDocuments: true,
       }
     );
-    
+
     console.log("LangChain components initialized successfully");
   } catch (error) {
     console.error("Error initializing LangChain:", error);
