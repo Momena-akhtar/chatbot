@@ -3,7 +3,9 @@ import { OpenAIEmbeddings } from "@langchain/openai";
 import { FaissStore } from "langchain/vectorstores/faiss";
 import { ConversationSummaryBufferMemory } from "langchain/memory";
 import { ConversationalRetrievalQAChain } from "langchain/chains";
+import { BufferMemory } from "langchain/memory";
 import { PromptTemplate } from "langchain/prompts";
+
 
 import dotenv from "dotenv";
 dotenv.config();
@@ -161,7 +163,8 @@ async function initLangChain() {
       llm: new ChatOpenAI({
         openAIApiKey: process.env.OPENAI_API_KEY,
         modelName: "gpt-3.5-turbo",
-        temperature: 0,
+        temperature: 0.5,
+        streaming: true,
       }),
       memoryKey: "chat_history",
       returnMessages: true,
