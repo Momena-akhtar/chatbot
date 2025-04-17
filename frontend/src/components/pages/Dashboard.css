@@ -20,7 +20,6 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 16px;
     outline: none;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.57);
     transition: margin 0.5s ease-in-out;
     padding-left: 30px;
   }

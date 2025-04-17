@@ -298,9 +298,10 @@ const Dashboard = () => {
             width: "80%",
             height: "80%",
             backgroundColor: darkMode ? "#1a1a1a" : "rgba(245, 245, 245, 0.36)",
+            border: darkMode ? "none" : "1px solid #333",
             padding: "20px 40px",
             borderRadius: "10px",
-            boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.55)",
+            boxShadow: darkMode? "0px 4px 10px rgba(0, 0, 0, 0.55)" : "none",
             textAlign: "center",
           }}
         >
@@ -399,6 +400,8 @@ const Dashboard = () => {
               className={`input-field ${darkMode ? "dark-mode" : "light-mode"}`}
               style={{
                 height: !chatStarted? "50px": "30px",
+                border: darkMode ? "none": "1px solid gray",
+                boxShadow: darkMode? "0px 2px 4px rgba(0, 0, 0, 0.57)" : "none",
               }}
               name="prompt"
               placeholder={
