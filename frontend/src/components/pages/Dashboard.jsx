@@ -227,6 +227,7 @@ const Dashboard = () => {
       )}
       {/* DARK MODE TOGGLE ICON */}
       <div
+      className="toggle-button"
         style={{
           position: "absolute",
           top: "12px",
@@ -246,6 +247,7 @@ const Dashboard = () => {
       </div>
       {/* USER */}
       <div
+      className="user-button"
         style={{
           position: "absolute",
           top: "10px",
@@ -281,31 +283,32 @@ const Dashboard = () => {
         </span>
       </div>
       {/*MAIN CONTAINER */}
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "100vh",
-          maxHeight: "100vh",
-          backgroundColor: darkMode ? "#333" : "#fff",
-          color: darkMode ? "#fff" : "#000",
-          fontFamily: "'Kumbh Sans', sans-serif",
-        }}
-      >
         <div
           style={{
-            width: "80%",
-            height: "80%",
-            backgroundColor: darkMode ? "#1a1a1a" : "rgba(245, 245, 245, 0.36)",
-            border: darkMode ? "none" : "1px solid #333",
-            padding: "20px 40px",
-            borderRadius: "10px",
-            boxShadow: darkMode? "0px 4px 10px rgba(0, 0, 0, 0.55)" : "none",
-            textAlign: "center",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+            maxHeight: "100vh",
+            backgroundColor: darkMode ? "#333" : "#fff",
+            color: darkMode ? "#fff" : "#000",
+            fontFamily: "'Kumbh Sans', sans-serif",
           }}
         >
-          {/* WELCOME HEADING */}
+          <div
+          className="main-container"
+            style={{
+          width: "80%",
+          height: "80%",
+          backgroundColor: window.innerWidth > 768 ? (darkMode ? "#1a1a1a" : "rgba(245, 245, 245, 0.36)") : "transparent",
+          border: window.innerWidth > 768 ? (darkMode ? "none" : "1px solid #333") : "none",
+          padding: "20px 40px",
+          borderRadius: window.innerWidth > 768 ? "10px" : "0",
+          boxShadow: window.innerWidth > 768 && darkMode ? "0px 4px 10px rgba(0, 0, 0, 0.55)" : "none",
+          textAlign: "center",
+            }}
+          >
+            {/* WELCOME HEADING */}
           {!chatStarted && (
             <>
               <h1 style={{ marginTop: "100px"}} className="main-heading">
@@ -396,21 +399,15 @@ const Dashboard = () => {
             </style>
           </div>
           <div style={{ position: "relative",}}>
-            <input
-              className={`input-field ${darkMode ? "dark-mode" : "light-mode"}`}
-              style={{
-                height: !chatStarted? "50px": "30px",
-                border: darkMode ? "none": "1px solid gray",
-                boxShadow: darkMode? "0px 2px 4px rgba(0, 0, 0, 0.57)" : "none",
-              }}
-              name="prompt"
-              placeholder={
-                !chatStarted ? "How can I help you today?" : "Ask Follow-up.."
-              }
-              value={userInput}
-              onChange={(e) => setUserInput(e.target.value)}
-              onKeyDown={handleKeyPress}
-            />
+          <input
+  className={`input-field ${darkMode ? "dark-mode" : "light-mode"} ${chatStarted ? "compact" : "full-height"}`}
+  name="prompt"
+  placeholder={ !chatStarted ? "How can I help you today?" : "Ask Follow-up.." }
+  value={userInput}
+  onChange={(e) => setUserInput(e.target.value)}
+  onKeyDown={handleKeyPress}
+/>
+
             {/* SEND RESPONSE BUTTON */}
             <button
             className="send-button"
@@ -423,12 +420,17 @@ const Dashboard = () => {
               }}
               onClick={() => {
                 handleSend();
-              }}
-            >
-              <i className="fa fa-paper-plane"></i>
-            </button>
-          </div>
-          {/* SUGGESTIONS */}
+                }}
+                
+              >
+                <i className="fa fa-paper-plane"
+                style={{
+                  width: "30px", // Reduced width
+                  height: "30px", // Reduced height
+                  }}></i>
+              </button>
+              </div>
+              {/* SUGGESTIONS */}
           {!chatStarted && (
             <div
             className="suggestions-container"
