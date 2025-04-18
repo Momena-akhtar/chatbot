@@ -21,10 +21,7 @@ import fs from "fs";
 const __dirname = path.resolve();
 
 // Configure Redis client for session management
-const redisClient = new Redis({
-  host: "127.0.0.1",
-  port: 6379,
-});
+const redisClient =  new Redis("rediss://default:AV5lAAIjcDE1MWUwOTU3NDdlMTY0YjRhYjcyZTUxZDc0NTEwNGIwZnAxMA@current-gnu-24165.upstash.io:6379");
 
 // Configure Express application
 const app = express();
