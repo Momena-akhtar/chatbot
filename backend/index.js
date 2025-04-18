@@ -245,18 +245,20 @@ app.post("/chat", async (req, res) => {
               }
               }
               // Stream tokens after answer starts
-              res.write(`data: ${JSON.stringify({ text: token.replace("?","") })}\n\n`);
+              res.write(`data: ${JSON.stringify({ text: token.replace("?", "") })}\n\n`);
             },
             async handleLLMEnd() {
               if (!responseStarted && bufferedTokens.trim()) {
-              res.write(`data: ${JSON.stringify({ text: bufferedTokens })}\n\n`);
+                res.write(`data: ${JSON.stringify({ text: bufferedTokens })}\n\n`);
               }
             
-                await memory.saveContext(
+              // Ensure we're providing the exact output structure that matches memory configuration
+              const cleanedResponse = fullResponse.replace(/^.?\?\s/, "");
+              await memory.saveContext(
                 { question: userMessage },
-                { text: fullResponse.replace(/^.*?\?\s*/, "")} 
-                );
-              console.log("memory: ", memory )            
+                { text: cleanedResponse }  // This needs to match the outputKey in memory configuration
+              );
+              console.log("Memory updated successfully");            
 
               res.write("data: [DONE]\n\n");
               res.end();

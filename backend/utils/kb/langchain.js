@@ -1,71 +1,64 @@
-//import necessary packages
-import { ChatOpenAI } from "@langchain/openai"; //for establishing connection ?
-import { OpenAIEmbeddings } from "@langchain/openai";  //for creating embeddings
-import { FaissStore } from "langchain/vectorstores/faiss"; //for storing embeddings
-import { ConversationSummaryBufferMemory } from "langchain/memory"; //for maintaining memory
-import { ConversationalRetrievalQAChain } from "langchain/chains"; //for chaining LLM and embedding models and stuff
-import { PromptTemplate } from "langchain/prompts"; //for specifying a prompt template for the model
+import { ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@langchain/openai";
+import { FaissStore } from "langchain/vectorstores/faiss";
+import { ConversationSummaryBufferMemory } from "langchain/memory";
+import { ConversationalRetrievalQAChain } from "langchain/chains";
+import { BufferMemory } from "langchain/memory";
+import { PromptTemplate } from "langchain/prompts";
 
-//environment dependencies
-import dotenv from "dotenv" //for environment variables
-dotenv.config()  
 
-//for setting up backend
-import express from "express"
-import cors from "cors"
+import dotenv from "dotenv";
+dotenv.config();
+import express from "express";
+import cors from "cors";
+import session from "express-session";
 
-//for creating session
-import session from "express-session"; 
-import { RedisStore } from "connect-redis";  //for storing memory
+import { RedisStore } from "connect-redis";
 import Redis from "ioredis";
+import path from "path";
+import fs from "fs";
 
-//other dpendencies
-import path from "path";  //for creating paths
-import fs from "fs"  //for reading files
+const __dirname = path.resolve();
 
-//rsolve the current directory name
-const __dirname = path.resolve()
-
-//make a redis client for session
+// Configure Redis client for session management
 const redisClient = new Redis({
-  host: "127.0.0.1"  //local host
-  ,port : 6379  //default port
-})
+  host: "127.0.0.1",
+  port: 6379,
+});
 
-//configure the express application
-const app = new express()
-app.use(express.json())
-app.use(cors())
-
-//create a session
+// Configure Express application
+const app = express();
+app.use(express.json());
+app.use(cors());
 app.use(
   session({
-    store: new RedisStore( {client: redisClient} ),
-    secret: process.env.SESSION_SECRET,
+    store: new RedisStore({ client: redisClient }),
+    secret: process.env.SESSION_SECRET || "your-secret-key",
     resave: false,
     saveUninitialized: true,
     cookie: {
-      maxAge: 1000 * 60 * 60 * 2, //2 hours
-      secure: process.env.NODE_ENV === "production"
-    }
-}))
+      maxAge: 1000 * 60 * 60 * 2, // 2 hours
+      secure: process.env.NODE_ENV === "production",
+    },
+  })
+);
 
-//initialize paths to the knowledge base
+// Initialize paths to knowledge base
 const VECTOR_DB_PATH = path.join(__dirname, "utils/kb/vector-db");
 const METADATA_PATH = path.join(__dirname, "utils/kb/chunks-metadata.json");
 
-//initialize app session management
+// Initialize chat session management
 app.use((req, res, next) => {
-  if (!req.session.chat){
+  if (!req.session.chat) {
     req.session.chat = {
       history: [],
-      lastActive: Date.now()
-    }
+      lastActive: Date.now(),
+    };
   }
-  next()
-})
+  next();
+});
 
-//middle ware
+// Middleware to handle session expiration
 app.use((req, res, next) => {
   if (
     req.session.chat &&
@@ -74,10 +67,6 @@ app.use((req, res, next) => {
     req.session.destroy();
     return res.status(440).json({ error: "Session expired" });
   }
-   //Update activity timestamp
-   if (req.session.chat) {
-    req.session.chat.lastActive = Date.now();
-  }
   next();
 });
 // Root endpoint
@@ -85,117 +74,112 @@ app.get("/", (req, res) => {
   res.send("Chatbot API is running!");
 });
 
-//initialze langchain components
-let vectorStore
+// LangChain components
+let vectorStore;
 let conversationChain;
-let memory;
-
-//initialize a prompt template
+let memory
+// Enhanced prompt template specifically designed to use context properly
 const ENHANCED_QA_PROMPT = new PromptTemplate({
   template: `
-You are a top-tier AI assistant trained on Saddam Hassan’s expertise in sales, systems, hiring, and scaling businesses. You provide engaging, specific, and actionable responses.
+You are an expert AI assistant specialized in sales, scaling, systems, and hiring, providing helpful, clear, and engaging answers.
 
-## CONTEXT:
+CONTEXT FROM KNOWLEDGE BASE:
 {context}
 
-## CHAT HISTORY:
+CHAT HISTORY:
 {chat_history}
 
-## USER QUESTION:
+USER QUESTION:
 {question}
 
-## INSTRUCTIONS:
-1. If the user's input is a simple greeting (e.g., "hi", "hello", "hey", "good morning", etc.), treat it as the start of a conversation. Respond with:
-   - A warm, friendly greeting.
-   - An offer to help with sales, hiring, systems, or scaling.
-   - DO NOT introduce yourself or say you're an AI unless explicitly asked.
+INSTRUCTIONS:
+1. Answer based ONLY on the provided context whenever relevant information exists.
+2. Do not use phrases like "based on the provided context" or "there is no information"—instead, seamlessly integrate the knowledge you have.
+2. If it is a simple greeting message like Hi, Hello, Good morning, greet them  in a friendly way and ask if they need assistance in your specialities.
+2. If the context lacks relevant information, use the chat history to find clues for a meaningful answer.
+3. If neither context nor chat history fully answers the question, respond using your general knowledge in a friendly, conversational, and helpful manner—avoid generic or bland disclaimers.
+4. Do NOT repeat or paraphrase the user's question.
+5. Provide direct, specific, and detailed answers.
+6. When quoting from the context, use exact phrases.
+7. Structure your response clearly, using bullet points or numbered lists where appropriate.
+8. Suggest relevant follow-up questions or next steps to keep the conversation engaging.
+9. Maintain a positive and conversational tone to enhance user experience.
+11. if you encounter pronous like "I" or "we" in the context, you should know that it is Saddam Hassan and his agency, and you are providing his advice to the user.
+12. If the question is ambiguous or broad, ask for clarification or narrow down the topic with suggestions.
 
-   Example:
-   - "Hey there! 👋 How can I help you today with anything around sales, systems, hiring, or scaling?"
-
-2. Use the context to answer only when relevant. Quote exact phrases when needed.
-3. If context lacks answers, use chat history to infer meaningful responses.
-4. If neither context nor history is enough, give high-quality general advice, but avoid empty disclaimers.
-5. DO NOT repeat or paraphrase the user’s question.
-6. Give clear, structured answers (use bullet points or steps).
-7. Suggest helpful follow-up questions or next steps.
-8. Keep the tone positive, conversational, and human-like — not robotic.
-9. Avoid saying “based on the provided context” or similar phrases. Just respond naturally.
-10. If the user uses pronouns like “I” or “we” in the context, they refer to Saddam Hassan and his agency. You are presenting his advice on his behalf.
-11. If the question is vague or broad, ask for clarification with specific options.
-
-## RESPONSE:
-`,
+YOUR RESPONSE:`,
   inputVariables: ["context", "chat_history", "question"],
 });
+
 async function initLangChain() {
   try {
-    console.log("[LangChain] Initializing components...");
-
+    console.log("Initializing LangChain components...");
+    
     // Initialize OpenAI embeddings
     const embeddings = new OpenAIEmbeddings({
       openAIApiKey: process.env.OPENAI_API_KEY,
     });
-
-    // Load or create FAISS vector store
+    
+    // Check for existing vector index files
     if (fs.existsSync(VECTOR_DB_PATH)) {
       vectorStore = await FaissStore.load(VECTOR_DB_PATH, embeddings);
-      console.log("[LangChain] Vector store loaded from disk.");
+      console.log("Vector store loaded successfully.");
     } else {
+      // Create vector store from source data if no index exists
       if (!fs.existsSync(METADATA_PATH)) {
         throw new Error(`Metadata file not found at: ${METADATA_PATH}`);
       }
-
+      
       const { metadata, texts } = JSON.parse(
         fs.readFileSync(METADATA_PATH, "utf-8")
       );
-
+      
       if (!texts || !texts.length) {
-        throw new Error("No text chunks found in metadata file.");
+        throw new Error("No text chunks found in metadata file");
       }
-
-      const documents = texts.map((text, index) => ({
+      
+      // Create document objects
+      const documents = texts.map((text, i) => ({
         pageContent: text,
-        metadata: metadata[index] || {},
+        metadata: metadata[i] || {},
       }));
-
+      
+      // Create and save vector store
       vectorStore = await FaissStore.fromDocuments(documents, embeddings);
       await vectorStore.save(VECTOR_DB_PATH);
-      console.log("[LangChain] Vector store created and saved.");
+      console.log("Vector store created and saved successfully.");
     }
-
-    // Initialize main LLM for answers
+    
+    // Initialize language model
     const llm = new ChatOpenAI({
       openAIApiKey: process.env.OPENAI_API_KEY,
       modelName: "gpt-3.5-turbo-16k",
       streaming: true,
       temperature: 0.5,
     });
-
-    // Memory LLM for summaries
+    
+    // Create memory for conversation history
     memory = new ConversationSummaryBufferMemory({
       llm: new ChatOpenAI({
         openAIApiKey: process.env.OPENAI_API_KEY,
         modelName: "gpt-3.5-turbo",
-        temperature: 0,
+        temperature: 0.5,
+        streaming: true,
       }),
       memoryKey: "chat_history",
       returnMessages: true,
       maxTokenLimit: 2000,
-      inputKey: "question",
+      inputKey: "question", 
       outputKey: "text",
     });
-
-    // Wrap retriever for future tuning flexibility
-    const retriever = vectorStore.asRetriever({
-      k: 3,
-      searchType: "similarity",
-    });
-
-    // Build the conversational chain
+    
+    // Create the QA chain
     conversationChain = ConversationalRetrievalQAChain.fromLLM(
       llm,
-      retriever,
+      vectorStore.asRetriever({
+        k: 3,
+        searchType: "similarity",
+      }),
       {
         memory,
         returnSourceDocuments: true,
@@ -205,19 +189,11 @@ async function initLangChain() {
         },
       }
     );
-
-    // Optional health-check call
-    try {
-      await conversationChain.call({ question: "ping" });
-      console.log("[LangChain] Model passed health check.");
-    } catch (pingError) {
-      console.warn("[LangChain] Health check failed:", pingError.message);
-    }
-
-    console.log("[LangChain] Initialization complete.");
+    
+    console.log("LangChain components initialized successfully.");
     return true;
   } catch (error) {
-    console.error("[LangChain] Initialization error:", error.message);
+    console.error("Error initializing LangChain:", error);
     throw error;
   }
 }
