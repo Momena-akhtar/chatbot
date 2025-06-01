@@ -62,7 +62,7 @@ const Dashboard = () => {
           sender: "bot",
         },
       ]);
-      const response = await fetch("https://saddam-chatbot.onrender.com/chat", {
+      const response = await fetch("https://chatbot-hjae.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
